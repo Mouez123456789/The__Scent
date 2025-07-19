@@ -1,0 +1,99 @@
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(to right, #fff1f5, #fce4ec);
+color: #4a4a4a;
+}
+
+.container {
+max-width: 900px;
+margin: auto;
+padding: 30px;
+}
+
+header {
+text-align: center;
+padding: 40px 20px;
+background-color: #fff0f6;
+border-bottom: 2px solid #f3c6d2;
+}
+
+header h1 {
+font-family: 'Playfair Display', serif;
+font-size: 42px;
+color: #b30059;
+margin-bottom: 10px;
+}
+
+header p {
+font-size: 18px;
+color: #66334d;
+}
+
+.product {
+text-align: center;
+margin: 40px 0;
+}
+
+.product img {
+width: 280px;
+max-width: 100%;
+border-radius: 15px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.product h2 {
+font-size: 28px;
+margin-top: 20px;
+color: #9a0057;
+}
+
+.product p {
+max-width: 600px;
+margin: 10px auto;
+font-size: 16px;
+line-height: 1.6;
+}
+
+.links {
+text-align: center;
+margin-top: 30px;
+}
+
+.links a {
+display: inline-block;
+margin: 10px;
+padding: 14px 28px;
+font-size: 16px;
+font-weight: bold;
+border-radius: 30px;
+color: #fff;
+text-decoration: none;
+transition: 0.3s ease;
+}
+
+.links .whatsapp {
+background-color: #25D366;
+}
+
+.links .instagram {
+background-color: #E1306C;
+}
+
+.links .tiktok {
+background-color: #000000;
+}
+
+.links a:hover {
+opacity: 0.9;
+transform: scale(1.03);
+}
+
+footer {
+margin-top: 50px;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+background-color: #f8f1f4;
+border-top: 1px solid #e0a6be;
+}
